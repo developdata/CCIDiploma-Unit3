@@ -3,7 +3,7 @@ This folder contains information and code for week 1. There are two .ino files, 
 
 ## Getting started with Arduino
 Arduino is an open source electronics platform that allows anyone to make interactive electronic projects. There are different types of Arduino, the one you have in this unit is a Leonardo.
-![Image of an Arduino Leonardo with labels](/leonardo.png"Ardiono Leonardo")
+![Image of an Arduino Leonardo with labels](leonardo.png)
 
 ## Download IDE 
 TO BE FILLED IN
@@ -44,13 +44,16 @@ When you are making changes to the components attached to an Arduino you should 
 
 Connect the components as seen in the image below, it shows an Uno, but it should be the same set up on a Leonardo. When you connect it again the LED should be blinking.
 
-![Connecting an LED to an Arduino](/LED.jpg"an arduino Uno and a breakboard with a LED on it, connected to the arduino")
+![Connecting an LED to an Arduino](LED.jpg)
 ### Button
 ou can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. ou can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. 
 
 You can store values in variables that you can then use throughout your code. Sometimes these values will be constant, which means you can’t change the value in them once you’ve set it. Others can be changed, so the value will change at different points in the code.
 
 Set up the Arduino and components as you see in the diagram. Attach the Arduino to the computer. Copy the .ino code and paste it into a new sketch and save it. Verfiy the code, then upload it to your Arduino.
+
+![Connecting a button and an LED](button.png)
+
 
 There is a lot more code in this sketch, and it introduces some new programming concepts 
 

@@ -14,13 +14,23 @@ To be added
 
 ## References
 These are some of the materials I used as reference when writing this unit:
-To be added
+
+Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf)
+
+Instructables [website](https://www.instructables.com/) - various Arduino projects
+
+Arduino [website](https://www.arduino.cc/)
+
+Rules of play - game design fundamentals by Katie Salen Tekinbaş and Eric Zimmerman 
+
+Seriously Considering Play - Designing interactive learning environments based on the blending of microworlds, simulations, and games by Lloyd P. Rieber 1996
+
 ## Week 1 - Thursday 22nd October 2020: Introduction to Physical computing
 This workshop will include an introduction to physical computing, Arduino and play. There will be a demonstration on setting up the Arduino programming environment and getting started with some basic components. You will start to connect components to an Arduino and write a short program.
 
 ### Week 1 materials
-Add link to slides
-Add link to Arduino book pdf
+Week 1 [slides](https://developdata.github.io/unit3_week_01)
+Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf)
 
 ### Homework
 Over the next three weeks, in groups of three you will be going through the Arduino project book as homework. 
@@ -28,10 +38,13 @@ Over the next three weeks, in groups of three you will be going through the Ardu
 ## Week 2 - Thursday 29th October 2020: Introduction to JavaScript and Node.js
 If you want to mix physical components with digital interfaces using a browser page is a good way to do it, which means getting to know some web languages including HTML, CSS and JavaScript. This workshop will be an introduction to JavaScript and Node.js. JavaScript
 
-If you want to mix physical components with digital interfaces using a browser page is a good way to do it, which means getting to know some web languages including HTML, CSS and JavaScript. This workshop will be an introduction to JavaScript and Node.js. JavaScript is a programming language that lets you make web pages more interactive. Node.js is a JavaScript based server side platform, this means that it runs the code on the server, not on the web browser. Using Node.js you will be able to pass data to and from an Arduino to web pages. I’ll go through this in later weeks, this week I will go through the fundamentals of the code needed to create a Node.js server and some basic interactions.
+If you want to mix physical components with digital interfaces using a browser page is a good way to do it, which means getting to know some web languages including HTML, CSS and JavaScript. This workshop will be an introduction to JavaScript and Node.js. 
 
 ### Week 2 materials
+Week 1 [slides]()
+
 Getting started [with JavaScript]( https://glitch.com/edit/#!/start-javascript)
+
 Setting up [Node.js]( https://glitch.com/edit/#!/start-nodeapp)
 [Websockets]( https://glitch.com/edit/#!/start-sockets)
 

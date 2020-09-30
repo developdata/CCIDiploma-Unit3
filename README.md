@@ -10,7 +10,7 @@ The Unit will be using Arduino's to explore physical computing. It will also exp
 For your assessment you need to produce a physical computing project based around the idea of play. You need to create a video to present the project as well as a pdf document detailing your project. This is an individual project, that should demonstrate your learning during the unit as well as your interpretation of the brief (add link to brief).
 
 ## Play
-To be added
+In this unit you will be creating a physical computing project based around play. Play can be many things, it could be a game, imaginary situations or explorational. It is enjoyable, imaginative, mainly voluntary and active.
 
 ## References
 These are some of the materials I used as reference when writing this unit:

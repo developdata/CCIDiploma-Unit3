@@ -52,7 +52,7 @@ You can store values in variables that you can then use throughout your code. So
 
 Set up the Arduino and components as you see in the diagram. Attach the Arduino to the computer. Copy the .ino code and paste it into a new sketch and save it. Verfiy the code, then upload it to your Arduino.
 
-![Connecting a button and an LED](button.png)
+![Connecting a button and an LED](button.jpg)
 
 
 There is a lot more code in this sketch, and it introduces some new programming concepts 

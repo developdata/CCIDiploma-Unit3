@@ -42,7 +42,7 @@ If you want to mix physical components with digital interfaces using a browser p
 If you want to mix physical components with digital interfaces using a browser page is a good way to do it, which means getting to know some web languages including HTML, CSS and JavaScript. This workshop will be an introduction to JavaScript and Node.js. 
 
 ### Week 2 materials
-Week 1 [slides](https://developdata.github.io/unit3_slides/week_02/#0)
+Week 2 [slides](https://developdata.github.io/unit3_slides/week_02/#0)
 
 Getting started [with JavaScript]( https://glitch.com/edit/#!/start-javascript)
 

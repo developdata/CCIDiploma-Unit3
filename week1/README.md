@@ -1,5 +1,10 @@
-### Week 1
+### Week 1 - Introduction to Arduino
 This folder contains information and code for week 1. There are two .ino files, one is the blink file that is in the examples in the Arduino IDE, the other is the .ino file for using a switch to turn a light on and off.
+
+## Week 1 materials
+Week 1 [slides](https://developdata.github.io/unit3_week_01)
+
+Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf)
 
 ## Getting started with Arduino
 Arduino is an open source electronics platform that allows anyone to make interactive electronic projects. There are different types of Arduino, the one you have in this unit is a Leonardo.

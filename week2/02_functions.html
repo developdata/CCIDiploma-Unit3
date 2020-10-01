@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Some JavaScript</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  </head>  
+  <body>
+    <h1 id="heading1"></h1>
+    <h2 id="heading2"></h2>
+    
+    <p id="paragraph1"></p>
+    <p id="paragraph2"></p>
+
+    <script>
+      //calling the functionS
+      var addUp = add(7,8);
+      console.log(addUp);
+      
+      log();
+      
+      logText("This text is being passed to the function");
+      
+      updateH1();
+      
+      //The functions
+      function add(a, b){
+         var c = a + b;
+         return c;
+      }
+      
+      function log(){
+        console.log('this is a console log');
+      }
+      
+      function logText(text){
+        console.log(text);
+      }
+      
+      
+      function updateH1(){
+        
+        document.getElementById("heading1").innerHTML = "This text comes from a Javascript function"
+      }
+      
+      //WRITE A FUNCTION THAT UPDATES THE H2 ELEMENT WITH TEXT 
+      //THAT IS PASSED AS AN ARGUMENT WHEN THE FUNCTION IS CALLED
+      //THEN CALL IT WITH SOME TEXT YOU WANT TO SEE IN THE H2 ELEMENT
+      
+    
+    </script>
+  </body>
+</html>

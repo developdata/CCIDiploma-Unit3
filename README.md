@@ -71,8 +71,8 @@ This project uses capacitors, so make sure that they are the right way round, wi
 
 I also found that the header pins were too short, I ended up using my own leads and not connecting the servo directly to the breadboard but via the leads. Also, on my servo the white lead twists as it leaves the servo, so it is attached to the centre pin when I attached it to the Arduino. This is something you could check if your servo doesn’t work. You can this this in the picture below, as well as the leads connecting the servo to the breadboard. 
 
-![Servo connected to breadboard](/images/arduino 1.jpg) 
+![Servo connected to breadboard](images/arduino1.jpg) 
 
 There is a potentiometer in this project, in the book it looks like all pins are placed on one side of the breadboard. I couldn’t do this with the potentiometer I had so I had the middle pin on the other side of the breadboard and the wire for that pin was on the same side. The photo below illustrates this.  
 
-![Potentiometer connected to breadboard](/images/arduino 2.jpg) 
+![Potentiometer connected to breadboard](images/arduino2.jpg) 

@@ -1,4 +1,4 @@
-### Week 2 - Introduciton to JavaScript
+# Week 2 - Introduciton to JavaScript
 This folder contains information and code for the front end JavaScript for week 2.
 
 ## Week 2 materials

@@ -19,9 +19,18 @@ An IDE is an integrated development environment, it has extra features to help y
 4. Once the file is downloaded double click on it to install 
 
 ## Arduino Basics
-An Arduino is aN electronics board with a microcontroller on that you can program. These programs are called Sketches, which have an .ino extension and can be created using the Arduino IDE. Once you have written your code you need to upload it to your Arduino, you do this by connecting your Arduino to your computer via USB and then downloading it to the Arduino. In order to do this the Sketch needs to know which Arduino you are using and which port it is connected to. 
+An Arduino is an electronics board with a microcontroller on that you can program. These programs are called Sketches, which have an .ino extension and can be created using the Arduino IDE. Once you have written your code you need to upload it to your Arduino, you do this by connecting your Arduino to your computer via USB and then downloading it to the Arduino. In order to do this the Sketch needs to know which Arduino you are using and which port it is connected to. 
 
 Computers have a series of ports that you can connect devices to, such as a keyboard or mouse. These ports could be USB, VGA or Ethernet, each port has a number. 
+
+## Safety 
+
+In this unit you will be working with electricity and electrical components. Safety has to be considered when working with electricity. When working on Arduino projects: 
+
+- Make sure that the Arduino is disconnected from its power source when you are attaching components, this power source maybe through the USB attachment to your computer or an external battery. 
+- If a component gets overly hot, or you smell burning disconnect the power supply from the Arduino. 
+- There are some components that will overheat if they are not connected correctly, such as the temperature sensor, if it starts to get hot, disconnect the power supply 
+- Capacitors need to have the power and ground going to the correct pin, it they don’t they can explode 
 
 ### The Blink Sketch 
 The Arduino comes with a number of example sketches you can use. The simplest is the Blink sketch, which tells the light that’s on the Arduino to blink on and off.
@@ -54,9 +63,11 @@ When you are making changes to the components attached to an Arduino you should 
 
 Connect the components as seen in the image below, it shows an Uno, but it should be the same set up on a Leonardo. When you connect it again the LED should be blinking.
 
+LED’s have two legs, one is positive (anode) and the other negative (cathode), the positive leg is the longer leg.  
+
 ![Connecting an LED to an Arduino](LED.jpg)
 ### Button
-ou can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. ou can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. 
+You can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. You can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. 
 
 You can store values in variables that you can then use throughout your code. Sometimes these values will be constant, which means you can’t change the value in them once you’ve set it. Others can be changed, so the value will change at different points in the code.
 
@@ -73,8 +84,6 @@ There is a lot more code in this sketch, and it introduces some new programming 
 const int  buttonPin = 2;    // the pin that the pushbutton is attached to 
 
 const int ledPin = 13;       // the pin that the LED is attached to 
-
-  
 
 // Variables will change: 
 

@@ -7,7 +7,7 @@ The Unit will be using Arduino's to explore physical computing. It will also exp
  Physical computing allows you to create programmed systems that are manifested with physical objects. This could be objects that sense and interact with the world, that respond to data, that send data that change other systems, or a mixture of the three.
 
 ## Assessment
-For your assessment you need to produce a physical computing project based around the idea of play. You need to create a video to present the project as well as a pdf document detailing your project. This is an individual project, that should demonstrate your learning during the unit as well as your interpretation of the brief (add link to brief).
+To be added add link to brief
 
 ## Play
 In this unit you will be creating a physical computing project based around play. Play can be many things, it could be a game, imaginary situations or explorational. It is enjoyable, imaginative, mainly voluntary and active.
@@ -56,6 +56,8 @@ Introduction to [Websockets]( https://glitch.com/edit/#!/start-sockets)
 
 ### Homework
 In your groups of three keep working through the Arduino project book, as you go, try remixing a bit.
+
+If you havne't got Node.js installed on your computer, install it, next week we will start creating a web server that will take in data from an Arduino. I've put instructions for installation in the week 2 [README](https://github.com/developdata/CCIDiploma-Unit3/blob/master/week2/README.md).
 
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 

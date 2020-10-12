@@ -59,6 +59,12 @@ In your groups of three keep working through the Arduino project book, as you go
 
 If you havne't got Node.js installed on your computer, install it, next week we will start creating a web server that will take in data from an Arduino. I've put instructions for installation in the week 2 [README](https://github.com/developdata/CCIDiploma-Unit3/blob/master/week2/README.md).
 
+## Week 3 play
+This week will be a look at how games are designed, this should help you think about what you want to develop during this unit, and how to incorporate play into the piece.
+
+### Week 3 materials
+Write your rules exercise [link](https://write-your-rules.glitch.me/)
+
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 
 

@@ -46,6 +46,8 @@ If you haven't got Node.js installed on your computer, install it, in week four 
 
 I've put instructions for these installations in the week 2 [README](https://github.com/developdata/CCIDiploma-Unit3/blob/master/week2/README.md). 
 
+Download [visual studio code](https://visualstudio.microsoft.com/free-developer-offers/) its a free development environment. 
+
 ## Week 2 - Thursday 29th October 2020: Introduction to Physical computing
 This workshop is an introduction to Arduino. There will be a demonstration on setting up the Arduino programming environment and getting started with some basic components. You will start to connect components to an Arduino and write a short program.
 

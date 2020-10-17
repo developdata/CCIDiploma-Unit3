@@ -18,6 +18,14 @@ An IDE is an integrated development environment, it has extra features to help y
 3. This will open a new page which will let you contribute and download or just download
 4. Once the file is downloaded double click on it to install
 
+## Command line interface
+Both Windows and Mac have built in command line interfaces, though you can install a different one if you prefer. On a Mac it's called Terminal, and on a PC it's called command prompt.
+
+On a Mac the terminal is located in the Utilities folder, the path is:
+Hard Drive/Applications/Utilities/Terminal
+
+On a PC the command prompt can be opened by typing the name into the search bar.
+
 
 ## Installing Node.js
 

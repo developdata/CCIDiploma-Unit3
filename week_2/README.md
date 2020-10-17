@@ -1,22 +1,14 @@
-# Week 1 - Introduction to Arduino
+# Week 2 - Introduction to Arduino
 This folder contains information and code for week 1. There are two .ino files, one is the blink file that is in the examples in the Arduino IDE, the other is the .ino file for using a switch to turn a light on and off.
 
-## Week 1 materials
-Week 1 [slides](https://developdata.github.io/unit3_week_01)
+## Week 2 materials
+Week 1 [slides](https://developdata.github.io/unit3_slides/week_02/#0)
 
 Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf)
 
 ## Getting started with Arduino
 Arduino is an open source electronics platform that allows anyone to make interactive electronic projects. There are different types of Arduino, the one you have in this unit is a Leonardo.
 ![Image of an Arduino Leonardo with labels](leonardo.png)
-
-## Download IDE 
-An IDE is an integrated development environment, it has extra features to help you code. There is an IDE for Arduino that is easy to install, you can use an online version, but I have found it easier to have it downloaded locally on my computer. To download the Arduino IDE: 
-
-1. Go to the download page on the Arduino https://www.arduino.cc/en/Main/Software 
-2. Go down the page until you see Download the Arduino IDE and choose the right version for you from the list on the right hand side - I chose Windows Installer for my PC 
-3. This will open a new page which will let you contribute and download or just download 
-4. Once the file is downloaded double click on it to install 
 
 ## Arduino Basics
 An Arduino is an electronics board with a microcontroller on that you can program. These programs are called Sketches, which have an .ino extension and can be created using the Arduino IDE. Once you have written your code you need to upload it to your Arduino, you do this by connecting your Arduino to your computer via USB and then downloading it to the Arduino. In order to do this the Sketch needs to know which Arduino you are using and which port it is connected to. 

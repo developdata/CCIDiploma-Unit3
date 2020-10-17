@@ -27,26 +27,11 @@ Seriously Considering Play - Designing interactive learning environments based o
 
 The Infinite Playground, A players guide to the imagination - Bernard De Koven with Holly Gramazio
 
-## Week 1 - Thursday 22nd October 2020: Introduction to Physical computing
-This workshop will include an introduction to physical computing, Arduino and play. There will be a demonstration on setting up the Arduino programming environment and getting started with some basic components. You will start to connect components to an Arduino and write a short program.
+## Week 1 - Thursday 22nd October 2020: Introduction to JavaScript and Node.js
+If you want to mix physical components with digital interfaces and create visual outputs, a browser page is a good way to do it. This means getting to know some web languages including HTML, CSS and JavaScript. This workshop will be an introduction to JavaScript and Node.js, as well Socket.io a library that lets you create multiuser interactive web pages. It will also be an introduction to the unit, showing examples of physical computing projects, and introducing the idea of play.
 
 ### Week 1 materials
 Week 1 [slides](https://developdata.github.io/unit3_week_01)
-
-Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf) I have added some notes at the bottom of this Readme file about some of the projects.
-
-Week 1 [folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week1)
-
-### Homework
-Over the next four weeks, in groups of three you will be working through the Arduino project book as homework. 
-
-## Week 2 - Thursday 29th October 2020: Introduction to JavaScript and Node.js
-If you want to mix physical components with digital interfaces using a browser page is a good way to do it, which means getting to know some web languages including HTML, CSS and JavaScript. This workshop will be an introduction to JavaScript and Node.js. JavaScript
-
-If you want to mix physical components with digital interfaces using a browser page is a good way to do it, which means getting to know some web languages including HTML, CSS and JavaScript. This workshop will be an introduction to JavaScript and Node.js. 
-
-### Week 2 materials
-Week 2 [slides](https://developdata.github.io/unit3_slides/week_02/#0)
 
 Getting started [with JavaScript]( https://glitch.com/edit/#!/start-javascript)
 
@@ -55,9 +40,25 @@ Setting up [Node.js]( https://glitch.com/edit/#!/start-nodeapp)
 Introduction to [Websockets]( https://glitch.com/edit/#!/start-sockets)
 
 ### Homework
-In your groups of three keep working through the Arduino project book, as you go, try remixing a bit.
+Install the Arduino integrated development environment (IDE) onto your computer.
 
-If you havne't got Node.js installed on your computer, install it, next week we will start creating a web server that will take in data from an Arduino. I've put instructions for installation in the week 2 [README](https://github.com/developdata/CCIDiploma-Unit3/blob/master/week2/README.md).
+If you haven't got Node.js installed on your computer, install it, in week four we will start creating a web server that will take in data from an Arduino.  
+
+I've put instructions for these installations in the week 2 [README](https://github.com/developdata/CCIDiploma-Unit3/blob/master/week2/README.md). 
+
+## Week 2 - Thursday 29th October 2020: Introduction to Physical computing
+This workshop is an introduction to Arduino. There will be a demonstration on setting up the Arduino programming environment and getting started with some basic components. You will start to connect components to an Arduino and write a short program.
+
+### Week 2 materials
+Week 2 [slides](https://developdata.github.io/unit3_slides/week_02/#0)
+
+Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf) I have added some notes at the bottom of this Readme file about some of the projects.
+
+Week 1 [folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week1)
+
+### Homework
+Over the next four weeks, in groups of three you will be working through the Arduino project book as homework. 
+
 
 ## Week 3 play
 This week will be a look at how games are designed, this should help you think about what you want to develop during this unit, and how to incorporate play into the piece.

@@ -10,6 +10,13 @@ Setting up [Node.js]( https://glitch.com/edit/#!/start-nodeapp)
 
 Introduction to [Websockets]( https://glitch.com/edit/#!/start-sockets)
 
+## References
+[Addicted Toasters](http://www.haque.co.uk/addictedtoasters.php)
+[Internet of Needy Things](http://nyethompson.net/works/internet-of-needy-things.html)
+[Wall Climbing Robot](https://www.youtube.com/watch?v=K0D942Kqh9A&feature=emb_logo)
+[Wooden Audio Sequencer](https://blog.arduino.cc/2015/11/23/wooden-audio-sequencer/)
+[Arduino Day Dubai 2020](https://www.youtube.com/watch?v=UeixeZ5fL1M)
+
 ## Installing the Arduino IDE
 An IDE is an integrated development environment, it has extra features to help you code. There is an IDE for Arduino that is easy to install, you can use an online version, but I have found it easier to have it downloaded locally on my computer. To download the Arduino IDE:
 
@@ -48,7 +55,7 @@ You will need to have Xcode installed on your mac, if you do you should be able 
 
 You will also need a .bashprofile on your machine, you can check if you have one using terminal and if you don't you can create one. To Check if you have a .bashprofile:
 1. Open a terminal window, make sure you are at the root, you should be able to see your computer name login followed by $
-2. At the $ prompt type in `-a TextEdit.app .bash_profile
+2. At the $ prompt type in `-a TextEdit.app .bash_profile`
 3. If you have a .bashprofile the file will open in a new window, you can close the window
 4. If file doesn't open, you will need to create one, you can do this by typing `touch .bash_profile` at the prompt.
 

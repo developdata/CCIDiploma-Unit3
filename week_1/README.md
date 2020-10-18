@@ -14,8 +14,10 @@ Introduction to [Websockets]( https://glitch.com/edit/#!/start-sockets)
 [Addicted Toasters](http://www.haque.co.uk/addictedtoasters.php)
 [Internet of Needy Things](http://nyethompson.net/works/internet-of-needy-things.html)
 [Wall Climbing Robot](https://www.youtube.com/watch?v=K0D942Kqh9A&feature=emb_logo)
-[Wooden Audio Sequencer](https://blog.arduino.cc/2015/11/23/wooden-audio-sequencer/)
+[The Good Night Lamp](http://goodnightlamp.com/)
 [Arduino Day Dubai 2020](https://www.youtube.com/watch?v=UeixeZ5fL1M)
+[IoT London](https://www.meetup.com/iotlondon/)
+
 
 ## Installing the Arduino IDE
 An IDE is an integrated development environment, it has extra features to help you code. There is an IDE for Arduino that is easy to install, you can use an online version, but I have found it easier to have it downloaded locally on my computer. To download the Arduino IDE:

@@ -40,6 +40,8 @@ Setting up [Node.js]( https://glitch.com/edit/#!/start-nodeapp)
 Introduction to [Websockets]( https://glitch.com/edit/#!/start-sockets)
 
 ### Homework
+Go back through all three glitch projects, play around with them and remix them.
+
 Install the Arduino integrated development environment (IDE) onto your computer.
 
 If you haven't got Node.js installed on your computer, install it, in week four we will start creating a web server that will take in data from an Arduino.  

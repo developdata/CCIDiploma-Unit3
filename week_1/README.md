@@ -17,6 +17,7 @@ Introduction to [Websockets]( https://glitch.com/edit/#!/start-sockets)
 [The Good Night Lamp](http://goodnightlamp.com/)
 [Arduino Day Dubai 2020](https://www.youtube.com/watch?v=UeixeZ5fL1M)
 [IoT London](https://www.meetup.com/iotlondon/)
+[What is a web server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
 
 
 ## Installing the Arduino IDE

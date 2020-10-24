@@ -34,10 +34,10 @@ The Arduino comes with a number of example sketches you can use. The simplest is
 5. In the tools menu check that there is a port selected 
 6. Verify the sketch by pressing on the tick icon on the sketch 
 7. Once verified, upload the sketch to your Arduino using the right pointing arrow icon 
-
 8. At the bottom of your sketch you should see information about the upload and any errors. One of the most common errors is the wrong port, if you get this, try changing the connection to the USB port on your computer and upload again
 #### The sketch explained
 When you create a new sketch there are always two functions listed. Functions are small pieces of code that do specific things. In the sketch there is a setup function and a loop funciton. The set up function is called once at the beginning. You can use it to set up any information you want the program to know, such as pin numbers. The other function is a Loop function. This function will be called multiple times, once the code has been processed once by your Arduino it will start again at the top, it will read the code top to bottom. 
+9. As this sketch is an example sketch, if you want to save it you need to make your own copy, just use file/save as
 
 `pinMode(LED_BUILTIN, OUTPUT);`
 This tells your Arduino the built in LED will be used, this correspond to Pin 13, it tells it there will be an output.

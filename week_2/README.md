@@ -72,6 +72,7 @@ This uses a sketch from the examples that come with the Arduino IDE. The light i
 When you press the button the light will come on, when you release it, it will go off again.
 
 `const int buttonPin = 2; 
+
 const int ledPin =  13;`
 
 The code starts with two constant variables. buttonPin holds the number of the digital pin the button will be conected to, while ledPin is the pin the light is connected to.
@@ -80,28 +81,42 @@ The code starts with two constant variables. buttonPin holds the number of the d
 There is then a variable that holds a reference to the current state of the light, 0 for off, 1 for on. It starts off.
 
 `void setup() {
+
   // initialize the LED pin as an output:
+
   pinMode(ledPin, OUTPUT);
+
   // initialize the pushbutton pin as an input:
+
   pinMode(buttonPin, INPUT);
+
 }`
 
 In the setup function, the light is set as an output and the button as an input.
 
 `void loop() {
+
   // read the state of the pushbutton value:
+
   buttonState = digitalRead(buttonPin);
 
   // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
+
   if (buttonState == HIGH) {
+
     // turn LED on:
+
     digitalWrite(ledPin, HIGH);
+
   } else {
+
     // turn LED off:
+
     digitalWrite(ledPin, LOW);
   }
-}
-`
+
+}`
+
 Everytime around the loop the variable buttonState is updated with the current state of the button, whether it is being pressed or not. This uses the digitalRead function, it is passed the digital pin number that the button is connected to as an argument.
 
 There is then an if statement that checks if the buttonState is High (1) or Low (0)
@@ -117,11 +132,18 @@ There is a lot more code in this sketch.
 
 #### Variables
 `// these constants won't change: 
+
 const int  buttonPin = 2;    // the pin that the pushbutton is attached to 
+
 const int ledPin = 13;       // the pin that the LED is attached to 
+
 // these variables will change: 
-int buttonPushCounter = 0;  // toggles between 0 and 1 to specify if the light is off or on 
+
+int buttonPushCounter = 0;  // toggles between 0 and 1 to specify if the 
+light is off or on 
+
 int buttonState = 0;         // current state of the button 
+
 int lastButtonState = 0;     // previous state of the button`
 
 There are a number of variables at the top of the page, two are constants, using the const keyword first. In this programming language you need to declare what the variable will be holding, for example a number or text. In this case all the variables are holding numbers so you use the word int, which stands for integer to declare them. You then give your variable a name, try and keep it to something that describes what it is holding. You can’t have spaces in the variable name, but you can use camel case to show different words. Most words can be used as variable names unless they are words used by the programming language, key words, such as int in this language. 
@@ -130,12 +152,18 @@ The two constant variables hold the numbers of the pins the button and LED are c
 
 #### Setup
 `void setup() { 
+
   // initialize the button pin as a input: 
+
   pinMode(buttonPin, INPUT); 
+
   // initialize the LED as an output: 
+
   pinMode(ledPin, OUTPUT); 
 }`
+
 In the set up the code is saying which pin is an input (the button) and which is an output (the LED) 
+
 #### The Loop
 `// read the pushbutton input pin: 
   buttonState = digitalRead(buttonPin);`
@@ -147,11 +175,17 @@ The loop starts by reading the current state on the button. Every time the Ardui
 There is then a check to see if the state of the button has changed. The exclamation mark followed by the equal sign is a check for not equal, which means the state of the button has changed. If it has changed the following code runs.
 
 `if (buttonPushCounter == 0){ 
+
         digitalWrite(ledPin, HIGH); 
+
         buttonPushCounter = 1; 
+
       } else { 
+
         buttonPushCounter = 0; 
+
          digitalWrite(ledPin, LOW); 
+         
       }`
 
 This time the check is to see the state of buttonPushCounter, and toggle the light on and off with the digitalWrite. The variable buttonPushCounter has to be changed so that in the next loop, if the button has been pressed the LED will either turn on or off. 

@@ -50,6 +50,7 @@ This creates a delay before the next line of code is processed. It is millisecon
 This turns the light off, it takes the pin to 0V 
 ### Blink with a light 
 ![Connecting an LED to an Arduino](LED.jpg)
+
 The next thing is to add an external LED which blinks, it uses the same code but an LED is connected to the Arduino.  
 
 When you are making changes to the components attached to an Arduino you should unplug it from its power supply, in this case by unplugging the USB. 
@@ -61,38 +62,68 @@ LED’s have two legs, one is positive (anode) and the other negative (cathode),
 
 ### Button
 ![Connecting a button and an LED](toggle_led.jpg)
-This uses a sketch from the examples that come with the Arduino IDE so:
+
+This uses a sketch from the examples that come with the Arduino IDE. The light is off until the button is pressed, it goes off again when the button is not pressed:
+
 1. Open the Arduino IDE and open the blink sketch, it is located in File/Examples/02.Digital/Button.
 2. With the Arduino unplugged from the power source attached the components to the Arduino as shown in the diagram above.
 3. Verify and upload the sketch to the Arduino.
 
 When you press the button the light will come on, when you release it, it will go off again.
 
+`const int buttonPin = 2; 
+const int ledPin =  13;`
+
+The code starts with two constant variables. buttonPin holds the number of the digital pin the button will be conected to, while ledPin is the pin the light is connected to.
+
+`int buttonState = 0;`
+There is then a variable that holds a reference to the current state of the light, 0 for off, 1 for on. It starts off.
+
+`void setup() {
+  // initialize the LED pin as an output:
+  pinMode(ledPin, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin, INPUT);
+}`
+
+In the setup function, the light is set as an output and the button as an input.
+
+`void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin);
+
+  // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
+  if (buttonState == HIGH) {
+    // turn LED on:
+    digitalWrite(ledPin, HIGH);
+  } else {
+    // turn LED off:
+    digitalWrite(ledPin, LOW);
+  }
+}
+`
+Everytime around the loop the variable buttonState is updated with the current state of the button, whether it is being pressed or not. This uses the digitalRead function, it is passed the digital pin number that the button is connected to as an argument.
+
+There is then an if statement that checks if the buttonState is High (1) or Low (0)
+
 
 ### Toggle LED On and Off with a Button
 
-Using the same component set up you can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. You can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. 
+Using the same component set up as the button example you can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state this state will be held in a variable.  
 
-You can store values in variables that you can then use throughout your code. Sometimes these values will be constant, which means you can’t change the value in them once you’ve set it. Others can be changed, so the value will change at different points in the code.
+Attach the Arduino to the computer. Copy the .ino code from the 03_toggle_led.ino (there is a link to it at the top of the page) and paste it into a new sketch and save it. Verfiy the code, then upload it to your Arduino.
 
-Set up the Arduino and components as you see in the diagram. Attach the Arduino to the computer. Copy the .ino code and paste it into a new sketch and save it. Verfiy the code, then upload it to your Arduino.
-
-There is a lot more code in this sketch, and it introduces some new programming concepts 
+There is a lot more code in this sketch.
 
 #### Variables
-`// this constant won't change: 
-
+`// these constants won't change: 
 const int  buttonPin = 2;    // the pin that the pushbutton is attached to 
-
 const int ledPin = 13;       // the pin that the LED is attached to 
-
-// Variables will change: 
-
+// these variables will change: 
 int buttonPushCounter = 0;  // toggles between 0 and 1 to specify if the light is off or on 
-
 int buttonState = 0;         // current state of the button 
-
 int lastButtonState = 0;     // previous state of the button`
+
 There are a number of variables at the top of the page, two are constants, using the const keyword first. In this programming language you need to declare what the variable will be holding, for example a number or text. In this case all the variables are holding numbers so you use the word int, which stands for integer to declare them. You then give your variable a name, try and keep it to something that describes what it is holding. You can’t have spaces in the variable name, but you can use camel case to show different words. Most words can be used as variable names unless they are words used by the programming language, key words, such as int in this language. 
 
 The two constant variables hold the numbers of the pins the button and LED are connected to. You could just add these numbers into the code, but putting them in variables makes it neater and easier if at some point you want to change the pin number (you don’t need to go through the code and change it everywhere, you can just change it in the variable declaration. 

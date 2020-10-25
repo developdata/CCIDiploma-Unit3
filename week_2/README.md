@@ -89,23 +89,32 @@ There is then a variable that holds a reference to the current state of the ligh
  ` // initialize the pushbutton pin as an input:`
 
  ` pinMode(buttonPin, INPUT);`
- 
+
 `}`
 
 In the setup function, the light is set as an output and the button as an input.
 
 `void loop() {`
+
  ` // read the state of the pushbutton value:`
+
  ` buttonState = digitalRead(buttonPin);`
+
  ` // check if the pushbutton is pressed. If it is, the buttonState is HIGH:`
  ` if (buttonState == HIGH) {`
+
   `  // turn LED on:`
+
   `  digitalWrite(ledPin, HIGH);
 `
  ` } else {`
+
    ` // turn LED off:`
+
 `    digitalWrite(ledPin, LOW);`
+
 `  }`
+
 `}`
 
 Everytime around the loop the variable buttonState is updated with the current state of the button, whether it is being pressed or not. This uses the digitalRead function, it is passed the digital pin number that the button is connected to as an argument.
@@ -123,10 +132,14 @@ There is a lot more code in this sketch.
 
 #### Variables
 `// these constants won't change: `
+
 `const int ledPin = 13;       // the pin that the LED is attached to `
+
 `// these variables will change: `
+
 `int buttonPushCounter = 0;  // toggles between 0 and 1 to specify if the 
 light is off or on `
+
 `
 int buttonState = 0;         // current state of the button 
 `
@@ -138,16 +151,22 @@ The two constant variables hold the numbers of the pins the button and LED are c
 
 #### Setup
 `void setup() { `
+
  ` // initialize the button pin as a input: `
+
   `pinMode(buttonPin, INPUT);` 
+
   `// initialize the LED as an output: `
+
  ` pinMode(ledPin, OUTPUT); `
+
 `}`
 
 In the set up the code is saying which pin is an input (the button) and which is an output (the LED) 
 
 #### The Loop
 `// read the pushbutton input pin: `
+
  ` buttonState = digitalRead(buttonPin);`
 
 The loop starts by reading the current state on the button. Every time the Arduino loops through the code it will check this state.
@@ -157,11 +176,17 @@ The loop starts by reading the current state on the button. Every time the Ardui
 There is then a check to see if the state of the button has changed. The exclamation mark followed by the equal sign is a check for not equal, which means the state of the button has changed. If it has changed the following code runs.
 
 `if (buttonPushCounter == 0){ `
+
       `  digitalWrite(ledPin, HIGH); `
+
       `  buttonPushCounter = 1; `
+
    `   } else { `
+
       `  buttonPushCounter = 0; `
+
        `  digitalWrite(ledPin, LOW); `
+       
     `  }`
 
 This time the check is to see the state of buttonPushCounter, and toggle the light on and off with the digitalWrite. The variable buttonPushCounter has to be changed so that in the next loop, if the button has been pressed the LED will either turn on or off. 

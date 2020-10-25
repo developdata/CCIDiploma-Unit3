@@ -140,27 +140,30 @@ In the set up the code is saying which pin is an input (the button) and which is
 `// read the pushbutton input pin: 
   buttonState = digitalRead(buttonPin);`
 
-The loop starts by reading the current state on the button. Every time the Arduino loops through the code it will check this state. 
+The loop starts by reading the current state on the button. Every time the Arduino loops through the code it will check this state.
+
 `if (buttonState != lastButtonState) {`
-There is then a check to see if the state of the button has change, whether the button has been pressed, if is not the same as it was last loop. If it has changed there is another if statement.
+
+There is then a check to see if the state of the button has changed. The exclamation mark followed by the equal sign is a check for not equal, which means the state of the button has changed. If it has changed the following code runs.
+
 `if (buttonPushCounter == 0){ 
-
         digitalWrite(ledPin, HIGH); 
-
         buttonPushCounter = 1; 
-
       } else { 
-
         buttonPushCounter = 0; 
-
          digitalWrite(ledPin, LOW); 
-
       }`
-This time the check is to see the state of buttonPushCounter,  and toggle the light on and off with the digitalWrite. The variable buttonPushCounter has to be changed so that in the next loop, if the button has been pressed the LED will either turn on or off. 
+
+This time the check is to see the state of buttonPushCounter, and toggle the light on and off with the digitalWrite. The variable buttonPushCounter has to be changed so that in the next loop, if the button has been pressed the LED will either turn on or off. 
+
 `delay(50);`
-Add in a delay, this is so there is time for the Arduino to make the changes to the components before the loop goes round again 
+
+Add in a delay, this is so there is time for the Arduino to make the changes to the components before the loop goes round again. The code will then exit the if statement.
+
 `lastButtonState = buttonState;`
+
 The lastButtonState variable is updated with the current button state so it will be correct on the next loop
+
 ## Troubleshooting
 You might get an error when uploading your Sketch 
 

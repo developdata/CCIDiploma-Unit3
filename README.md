@@ -66,7 +66,7 @@ This workshop is an introduction to Arduino. There will be a demonstration on se
 ### Week 2 materials
 Week 2 [slides](https://developdata.github.io/unit3_slides/week_02/#0)
 
-Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf) I have added some notes at the bottom of this Readme file about some of the projects.
+Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf). I have added some notes at the bottom of this Readme file about some of the projects.
 
 Week 2 [folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week2)
 

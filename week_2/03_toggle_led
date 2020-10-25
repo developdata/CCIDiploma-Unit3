@@ -20,10 +20,11 @@ This example code is in the public domain.
  http://www.arduino.cc/en/Tutorial/ButtonStateChange
  */
 
+// these constants won't change: 
 const int  buttonPin = 2;    // the pin that the pushbutton is attached to
 const int ledPin = 13;       // the pin that the LED is attached to
 
-// Variables will change:
+//these variables will change: 
 int buttonPushCounter = 0;   // toggles between 0 and 1 to specify if the light is off or on
 int buttonState = 0;         // current state of the button
 int lastButtonState = 0;     // previous state of the button

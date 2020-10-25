@@ -19,7 +19,8 @@ Computers have a series of ports that you can connect devices to, such as a keyb
 
 In this unit you will be working with electricity and electrical components. Safety has to be considered when working with electricity. When working on Arduino projects: 
 
-- Make sure that the Arduino is disconnected from its power source when you are attaching components, this power source maybe through the USB attachment to your computer or an external battery. 
+- Make sure that the Arduino is disconnected from its power source when you are attaching components, this power source maybe through the USB attachment to your computer or an external battery.
+- All the projects in the book either use 5V (power from the USB) or 9V (through a battery). At this point you shouldn't go above this voltage for the Arduino.
 - If a component gets overly hot, or you smell burning disconnect the power supply from the Arduino. 
 - There are some components that will overheat if they are not connected correctly, such as the temperature sensor, if it starts to get hot, disconnect the power supply 
 - Capacitors need to have the power and ground going to the correct pin, it they don’t they can explode 
@@ -59,13 +60,17 @@ LED’s have two legs, one is positive (anode) and the other negative (cathode),
 
 ![Connecting an LED to an Arduino](LED.jpg)
 ### Button
+![Connecting a button and an LED](button.jpg)
+
+### Toggle LED On and Off with a Button
+![Connecting a button and an LED](toggle_led.jpg)
 You can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. You can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. 
 
 You can store values in variables that you can then use throughout your code. Sometimes these values will be constant, which means you can’t change the value in them once you’ve set it. Others can be changed, so the value will change at different points in the code.
 
 Set up the Arduino and components as you see in the diagram. Attach the Arduino to the computer. Copy the .ino code and paste it into a new sketch and save it. Verfiy the code, then upload it to your Arduino.
 
-![Connecting a button and an LED](button.jpg)
+
 
 
 There is a lot more code in this sketch, and it introduces some new programming concepts 

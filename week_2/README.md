@@ -5,16 +5,7 @@ This folder contains information and code for week 2. There are two .ino files, 
 Week 2 [slides](https://developdata.github.io/unit3_slides/week_02/#0)
 
 Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf)
-
-## Getting started with Arduino
-Arduino is an open source electronics platform that allows anyone to make interactive electronic projects. There are different types of Arduino, the one you have in this unit is a Leonardo.
-![Image of an Arduino Leonardo with labels](leonardo.png)
-
-## Arduino Basics
-An Arduino is an electronics board with a microcontroller on that you can program. These programs are called Sketches, which have an .ino extension and can be created using the Arduino IDE. Once you have written your code you need to upload it to your Arduino, you do this by connecting your Arduino to your computer via USB and then downloading it to the Arduino. In order to do this the Sketch needs to know which Arduino you are using and which port it is connected to. 
-
-Computers have a series of ports that you can connect devices to, such as a keyboard or mouse. These ports could be USB, VGA or Ethernet, each port has a number. 
-
+ 
 ## Safety 
 
 In this unit you will be working with electricity and electrical components. Safety has to be considered when working with electricity. When working on Arduino projects: 
@@ -24,6 +15,43 @@ In this unit you will be working with electricity and electrical components. Saf
 - If a component gets overly hot, or you smell burning disconnect the power supply from the Arduino. 
 - There are some components that will overheat if they are not connected correctly, such as the temperature sensor, if it starts to get hot, disconnect the power supply 
 - Capacitors need to have the power and ground going to the correct pin, it they don’t they can explode 
+
+## Getting started with Arduino
+Arduino is an open source electronics platform that allows anyone to make interactive electronic projects. There are different types of Arduino, the one you have in this unit is a Leonardo.
+![Image of an Arduino Leonardo with labels](leonardo.png)
+
+### Arduino
+An Arduino is an electronics board with a microcontroller on that you can program. These programs are called Sketches, which have an .ino extension and can be created using the Arduino IDE. Once you have written your code you need to upload it to your Arduino, you do this by connecting your Arduino to your computer via USB and then downloading it to the Arduino. In order to do this the Sketch needs to know which Arduino you are using and which port it is connected to. 
+
+Computers have a series of ports that you can connect devices to, such as a keyboard or mouse. These ports could be USB, VGA or Ethernet, each port has a number.
+
+### Components
+You can attach different components to an Arduino, some will have outputs such as light or sound or movement, some will be ways on inputting information into the Arduino, such as buttons, sliders and sensors. 
+
+### Resistors 
+Resistors Resist the flow of electrical energy in a circuit, changing the voltage and current. Each component has a maximum amount of current it can use safely the resistor is used to limit the amount of current to that component so it doesn’t receive too much. 
+
+### Connecting Components to an Arduino 
+The easiest way to connect components to an Arduino is to use a breadboard and jumper wires, also called jump wires. 
+
+#### Breadboard 
+A breadboard lets you connect components to an Arduino without soldering. It has a series of holes for the component's legs and the jump wires. 
+
+There are different configurations of breadboards, the one in your kit has horizonal power rails that run the length of the bread board on each side. One of the power rails is positive and the other negative, ground. There are shorter terminal strips vertically. When you look inside the breadboard you can see the conductive material for both. It makes it easier to see that when you put the leg of a component in a hole in the terminal strip, that whole strip is part of that legs circuit.  
+
+As the power rails run horizontally you can place the ground or the power lead at any point on the rail. 
+
+There is a center divider isn’t connected to a conductive material so divides the two halves of the board.
+![Image of a breadboard with labels to show the conductive strips](breadboard2.jpg)
+
+#### Jumper Leads 
+Jump leads come in many colors. By convention black leads are used for ground (negative) connections and red leads for positive connections. They are made of conductive wire covered by an isolating material. The end of the lead can either be a pin, or a port. For the projects in the book you will be using jumper leads which have pins at either end, but there are leads that have pin at one end and port at the other, or two ports. 
+![Image of a cables showing the differnet ends of the leads](cables.jpg)
+
+### USB 
+You connect the Arduino to your computer via the USB port on your computer. This allows give the Arduino 5 volts of power, the amount needed for most of the projects in the book, and also is the link to upload the code, the sketch to an Arduino. 
+
+## Arduino Projects
 
 ### The Blink Sketch 
 The Arduino comes with a number of example sketches you can use. The simplest is the Blink sketch, which tells the light that’s on the Arduino to blink on and off.

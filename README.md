@@ -1,4 +1,4 @@
-# Unit 3 Physical Computing
+# Unit 3 Creative Practice: Visual Coding and Physical Computing
 This repository contains information and code for the physical computing unit for the Diploma in Creative Computing of the Creative Computing Institute.
 
 The Unit will be using Arduino's to explore physical computing. It will also explore how physical and digital computing can be integrated to create interactive systems. By using the idea of play you will be creating interactive physical systems using a range of inputs and outputs. 
@@ -27,6 +27,16 @@ Seriously Considering Play - Designing interactive learning environments based o
 
 The Infinite Playground, A players guide to the imagination - Bernard De Koven with Holly Gramazio
 
+## Safety 
+
+In this unit you will be working with electricity and electrical components. Safety has to be considered when working with electricity. When working on Arduino projects: 
+
+- Make sure that the Arduino is disconnected from its power source when you are attaching components, this power source maybe through the USB attachment to your computer or an external battery. 
+- All the projects in the book either use 5V (power from the USB) or 9V (through a battery). At this point you shouldn't go above this voltage for the Arduino.
+- If a component gets overly hot, or you smell burning disconnect the power supply from the Arduino. 
+- There are some components that will overheat if they are not connected correctly, such as the temperature sensor, if it starts to get hot, disconnect the power supply 
+- Capacitors need to have the power and ground going to the correct pin, it they don’t they can explode 
+
 ## Week 1 - Thursday 22nd October 2020: Introduction to JavaScript and Node.js
 If you want to mix physical components with digital interfaces and create visual outputs, a browser page is a good way to do it. This means getting to know some web languages including HTML, CSS and JavaScript. This workshop will be an introduction to JavaScript and Node.js, as well Socket.io a library that lets you create multiuser interactive web pages. It will also be an introduction to the unit, showing examples of physical computing projects, and introducing the idea of play.
 
@@ -50,7 +60,7 @@ I've put instructions for these installations in the week 2 [README](https://git
 
 Download [visual studio code](https://visualstudio.microsoft.com/free-developer-offers/) its a free development environment. 
 
-## Week 2 - Thursday 29th October 2020: Introduction to Physical computing
+## Week 2 - Thursday 29th October 2020: Introduction to Arduino
 This workshop is an introduction to Arduino. There will be a demonstration on setting up the Arduino programming environment and getting started with some basic components. You will start to connect components to an Arduino and write a short program.
 
 ### Week 2 materials
@@ -58,7 +68,7 @@ Week 2 [slides](https://developdata.github.io/unit3_slides/week_02/#0)
 
 Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf) I have added some notes at the bottom of this Readme file about some of the projects.
 
-Week 1 [folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week1)
+Week 2 [folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week2)
 
 ### Homework
 Over the next four weeks, in groups of three you will be working through the Arduino project book as homework. 

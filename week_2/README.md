@@ -49,29 +49,33 @@ This creates a delay before the next line of code is processed. It is millisecon
 `digitalWrite(LED_BUILTIN, LOW);` 
 This turns the light off, it takes the pin to 0V 
 ### Blink with a light 
-
+![Connecting an LED to an Arduino](LED.jpg)
 The next thing is to add an external LED which blinks, it uses the same code but an LED is connected to the Arduino.  
 
 When you are making changes to the components attached to an Arduino you should unplug it from its power supply, in this case by unplugging the USB. 
 
-Connect the components as seen in the image below, it shows an Uno, but it should be the same set up on a Leonardo. When you connect it again the LED should be blinking.
+Connect the components as seen in the image above, it shows an Uno, but it should be the same set up on a Leonardo. When you connect it again the LED should be blinking.
 
 LED’s have two legs, one is positive (anode) and the other negative (cathode), the positive leg is the longer leg.  
 
-![Connecting an LED to an Arduino](LED.jpg)
+
 ### Button
-![Connecting a button and an LED](button.jpg)
+![Connecting a button and an LED](toggle_led.jpg)
+This uses a sketch from the examples that come with the Arduino IDE so:
+1. Open the Arduino IDE and open the blink sketch, it is located in File/Examples/02.Digital/Button.
+2. With the Arduino unplugged from the power source attached the components to the Arduino as shown in the diagram above.
+3. Verify and upload the sketch to the Arduino.
+
+When you press the button the light will come on, when you release it, it will go off again.
+
 
 ### Toggle LED On and Off with a Button
-![Connecting a button and an LED](toggle_led.jpg)
-You can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. You can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. 
+
+Using the same component set up you can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. You can write some code so that the button becomes a toggle to turn the light on and off. For this you the Arduino needs to remember the current state and when the button is pressed toggle to the other state. For this you will need to use variables in your code. 
 
 You can store values in variables that you can then use throughout your code. Sometimes these values will be constant, which means you can’t change the value in them once you’ve set it. Others can be changed, so the value will change at different points in the code.
 
 Set up the Arduino and components as you see in the diagram. Attach the Arduino to the computer. Copy the .ino code and paste it into a new sketch and save it. Verfiy the code, then upload it to your Arduino.
-
-
-
 
 There is a lot more code in this sketch, and it introduces some new programming concepts 
 

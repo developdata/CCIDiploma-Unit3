@@ -72,6 +72,7 @@ This uses a sketch from the examples that come with the Arduino IDE. The light i
 When you press the button the light will come on, when you release it, it will go off again.
 
 `const int buttonPin = 2; `
+
 `const int ledPin =  13;`
 
 The code starts with two constant variables. buttonPin holds the number of the digital pin the button will be conected to, while ledPin is the pin the light is connected to.
@@ -80,10 +81,15 @@ The code starts with two constant variables. buttonPin holds the number of the d
 There is then a variable that holds a reference to the current state of the light, 0 for off, 1 for on. It starts off.
 
 `void setup() {`
+
  ` // initialize the LED pin as an output:`
+
  ` pinMode(ledPin, OUTPUT);`
+
  ` // initialize the pushbutton pin as an input:`
+
  ` pinMode(buttonPin, INPUT);`
+ 
 `}`
 
 In the setup function, the light is set as an output and the button as an input.

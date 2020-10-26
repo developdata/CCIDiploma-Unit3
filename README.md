@@ -71,7 +71,7 @@ Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/0
 Week 2 [folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week2)
 
 ### Homework
-Over the next four weeks, in groups of three you will be working through the Arduino project book as homework. 
+Over the next four weeks, small groups you will be working through the Arduino project book as homework. 
 
 
 ## Week 3 play

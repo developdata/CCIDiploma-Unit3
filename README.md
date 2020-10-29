@@ -56,7 +56,7 @@ Install the Arduino integrated development environment (IDE) onto your computer.
 
 If you haven't got Node.js installed on your computer, install it, in week four we will start creating a web server that will take in data from an Arduino.  
 
-I've put instructions for these installations in the week 2 [README](https://github.com/developdata/CCIDiploma-Unit3/blob/master/week2/README.md). 
+I've put instructions for these installations in the week 1 [README](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week_1#installing-nodejs). 
 
 Download [visual studio code](https://visualstudio.microsoft.com/free-developer-offers/) its a free development environment. 
 
@@ -68,7 +68,7 @@ Week 2 [slides](https://developdata.github.io/unit3_slides/week_02/#0)
 
 Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf). I have added some notes at the bottom of this Readme file about some of the projects.
 
-Week 2 [folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week2)
+Week 2 [folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week_2)
 
 ### Homework
 Over the next four weeks, small groups you will be working through the Arduino project book as homework. 

@@ -2,7 +2,7 @@
 This folder contains information and code for the front-end JavaScript for week 2.
 
 ## Week 1 materials
-Week 1 [slides](https://developdata.github.io/unit3_slides/week_02/#0)
+Week 1 [slides](https://developdata.github.io/unit3_week_01)
 
 Getting started [with JavaScript]( https://glitch.com/edit/#!/start-javascript)
 

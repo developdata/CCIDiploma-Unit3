@@ -77,7 +77,10 @@ Over the next four weeks, small groups you will be working through the Arduino p
 This week will be a look at how games are designed, this should help you think about what you want to develop during this unit, and how to incorporate play into the piece.
 
 ### Week 3 materials
-Write your rules exercise [link](https://write-your-rules.glitch.me/)
+Week 3 [slides](https://developdata.github.io/unit3_slides/week_03/#0)
+The Pig game [link](https://game-design.glitch.me/) for game
+The Pig game [link](https://glitch.com/~game-design) for code
+Write your rules exercise code [link](https://glitch.com/edit/#!/write-your-rules?path=README.md%3A1%3A0)
 
 ### Week 3 references
 Deconstructing games as play: Progress, power, fantasy, and self[link](https://www.researchgate.net/publication/257682638_Deconstructing_games_as_play_Progress_power_fantasy_and_self) Catherine Milne, Cult Stud of Sci Educ (2012) 7:761–765 DOI 10.1007/s11422-012-9462-7
@@ -87,6 +90,7 @@ The Infinite playground – A players guide to Imagination, Bernard De Koven wit
 Finite and Infinite Games[link](https://jamescarse.com/wp/?page_id=61) James Carse
 
 Rules of play - game design fundamentals, Katie Salen Tekinbaş and Eric Zimmerman 
+
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 
 

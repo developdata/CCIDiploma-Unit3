@@ -78,8 +78,11 @@ This week will be a look at how games are designed, this should help you think a
 
 ### Week 3 materials
 Week 3 [slides](https://developdata.github.io/unit3_slides/week_03/#0)
+
 The Pig game [link](https://game-design.glitch.me/) for game
+
 The Pig game [link](https://glitch.com/~game-design) for code
+
 Write your rules exercise code [link](https://glitch.com/edit/#!/write-your-rules?path=README.md%3A1%3A0)
 
 ### Week 3 references

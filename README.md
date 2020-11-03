@@ -90,13 +90,27 @@ Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/0
 Circuit [slides](https://developdata.github.io/unit3_slides/circuits/#0)
 
 ### Week 3 references
-Deconstructing games as play: Progress, power, fantasy, and self[link](https://www.researchgate.net/publication/257682638_Deconstructing_games_as_play_Progress_power_fantasy_and_self) Catherine Milne, Cult Stud of Sci Educ (2012) 7:761–765 DOI 10.1007/s11422-012-9462-7
+[Deconstructing games as play: Progress, power, fantasy, and self](https://www.researchgate.net/publication/257682638_Deconstructing_games_as_play_Progress_power_fantasy_and_self) Catherine Milne, Cult Stud of Sci Educ (2012) 7:761–765 DOI 10.1007/s11422-012-9462-7
 
 The Infinite playground – A players guide to Imagination, Bernard De Koven with Holly Gramazio 
 
 Finite and Infinite Games[link](https://jamescarse.com/wp/?page_id=61) James Carse
 
 Rules of play - game design fundamentals, Katie Salen Tekinbaş and Eric Zimmerman 
+
+Hello Lampost - [Hello Lamp Post Singapore](https://vimeo.com/283965358)  
+
+[The Moving Forest] (https://vimeo.com/1848454)
+
+[Introdbots](https://www.masterdigitaldesign.com/case/introbots)  
+
+[And] (https://www.behance.net/gallery/69142363/Introbots) 
+
+[Line wobbler]https://wobblylabs.com/projects/wobbler()  
+
+[The crown fountain](https://jaumeplensa.com/works-and-projects/public-space/the-crown-fountain-2004 ) 
+
+[Constell-Action](https://pangenerator.com/projects/constellaction/) 
 
 ### Week 3 homework
 Over the next four weeks, small groups you will be working through the [Arduino project book (https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf) as homework.

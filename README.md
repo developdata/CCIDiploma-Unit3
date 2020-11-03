@@ -114,7 +114,15 @@ Hello Lampost - [Hello Lamp Post Singapore](https://vimeo.com/283965358)
 [Constell-Action](https://pangenerator.com/projects/constellaction/) 
 
 ### Week 3 homework
-Over the next four weeks, small groups you will be working through the Arduino project book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf). as homework.
+Make sure that Node.js is installed on you computer
+
+Watch these videos on Electricty
+
+[What is Electric Charge and How Electricity Works](https://howtomechatronics.com/learn/electricity/electric-charge-how-electricity-works/)
+
+[What is Electricity](https://learn.sparkfun.com/tutorials/what-is-electricity/all)
+
+[Voltage, Current, Resistance, and Ohm's Law](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all)
 
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 

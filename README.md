@@ -87,7 +87,6 @@ Write your rules exercise code [link](https://glitch.com/edit/#!/write-your-rule
 
 Arduino projects book [pdf](https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf).
 
-Circuit [slides](https://developdata.github.io/unit3_slides/circuits/#0)
 
 ### Week 3 references
 [Deconstructing games as play: Progress, power, fantasy, and self](https://www.researchgate.net/publication/257682638_Deconstructing_games_as_play_Progress_power_fantasy_and_self) Catherine Milne, Cult Stud of Sci Educ (2012) 7:761–765 DOI 10.1007/s11422-012-9462-7

@@ -114,7 +114,7 @@ Hello Lampost - [Hello Lamp Post Singapore](https://vimeo.com/283965358)
 [Constell-Action](https://pangenerator.com/projects/constellaction/) 
 
 ### Week 3 homework
-Over the next four weeks, small groups you will be working through the [Arduino project book (https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf) as homework.
+Over the next four weeks, small groups you will be working through the [Arduino project book] (https://bastiaanvanhengel.files.wordpress.com/2016/06/arduino_projects_book.pdf) as homework.
 
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 

@@ -98,6 +98,8 @@ Finite and Infinite Games[link](https://jamescarse.com/wp/?page_id=61) James Car
 
 Rules of play - game design fundamentals, Katie Salen Tekinbaş and Eric Zimmerman 
 
+[How Electricity Works](https://howtomechatronics.com/learn/electricity/electric-charge-how-electricity-works/)
+
 Hello Lampost - [Hello Lamp Post Singapore](https://vimeo.com/283965358)  
 
 [The Moving Forest] (https://vimeo.com/1848454)

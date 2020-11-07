@@ -124,6 +124,13 @@ Watch these videos on Electricty
 
 [Voltage, Current, Resistance, and Ohm's Law](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all)
 
+## Week 4 - Thursday 12th November 2020: Arduino Data to a Web Page
+This week you will be sending data from an Arduino to a web page, via a local Node.js server on your computer. The data will be a button click, the web page will say how many times the button has been clicked then the page is opened. 
+
+### Week 4 materials
+
+### Week 4 homework
+
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 
 

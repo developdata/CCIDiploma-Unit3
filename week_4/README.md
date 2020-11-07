@@ -85,3 +85,91 @@ app.get('/', function(req, res){
 The get function specifies a route to a web page, the forward slash is saying this is the page at the root of your application, what is shown with the root url, localhost:3000. At the moment it will send the words Hi There, which will be displayed on the page. 
 
 As the code has been updated, you need to restart your server, to do this you stop the server by pressing ctrl + c, then restart it again by typing in node server.js 
+
+### Installing Nodemon 
+It gets a bit annoying stopping and starting the server when you’re developing an application, you will be doing it a lot There is a package called Nodemon that you can download, this will automatically stop and restart the server anytime that the application is updated and saved. You want to install it for all future applications as well as this one, so this time you don’t install it specifily to this application, but in your home directory. To do this  
+
+1. Open a command line interface window 
+
+2. Make sure it is at the home directory (not the root of your application)
+
+3. At the prompt type in `npm i nodemon –g` the minus g installs it globally on your machine, not just in the file you're in 
+
+4. Now go to the root of your application in a terminal window, start the application by typing in  `nodemon server.js ` as it has been started with nodemon, you don’t need to stop it for the server to update 
+
+5. Add a new line in the get function, such as console.log(‘hi’); 
+
+6. Refresh your web page with the local host in 
+
+7. You will see in the console for the application there is a console log when that page is accessed. 
+
+### Transfering data from the Arduino to the Application
+In this applicatin the data coming from the Arduino will be a button press. The data will come from the button, via the serial port to the server. 
+
+#### Serial Port 
+A serial port is a port on your computer used to attach devices. When you connect your Arduino to your computer you need to tell it which port on the computer your Arduino is connected to. Your Arduino receives data from this port when you upload a sketch, it can also send data through this port to your computer.  
+
+The data is sent in and out of your computer in single bits or 0 or 1 (binary). These bits are joined together to send complex data. The Arduino Leonardo and Uno uses Pin 0 (RX) for receiving data and Pin 1 (TX) for transmitting data. If you transmitting or receiving serial data you can not  use these pins for anything else. 
+
+#### The code
+At the moment, the data is just going to the serial monitor in the Arduino IDE, so now we are going to send it to the Node.js application. 
+
+First make a note of the port your Arduino is attached to on the computer, if you look in the tools menu of the Arduino IDE you will see it under port, make a note of it. On a Mac, it will be something like tty.usbmodem<port number>, on a PC something like COM3. 
+
+To get the data into the application you will be using another Node.js module called SerialPort. This needs to be downloaded to your application via npm: 
+
+1. Make sure that your command line interface window is at the root of your application 
+
+2. Type in `npm i serialport` 
+
+3. This will start the download of the package, if you are downloading it to a PC for the first time it will also download some other dependencies, but it should do this without you having to do anything 
+
+Now you have the module in your application you need to include it in your code, open the server.js file and write the following code underneath ```const app = express();```, you don't need to bring in the commented text: 
+
+```
+const SerialPort = require('serialport'); //brings the module into your application 
+
+const Readline = require('@serialport/parser-readline'); //will parse the data from the Arduino into a readable form 
+
+const port = new SerialPort('your port number'); //this links the port the Arduino is on to the application 
+
+const parser = port.pipe(new Readline({ delimiter: '\r\n' })); //This creates a new //Readline object, which is the parser. The delimiter of r and n gets rid of new lines and carriage returns in the data, it cleans the data 
+```
+That’s the set up for SerialPort, it can now be used to see the data, beneaht ```const parser = port.pipe(new Readline({ delimiter: '\r\n' }));``` write in: 
+```
+parser.on('data', function(data){ 
+    console.log(data); 
+}); 
+```
+This code uses Serial Ports on function, to say on new data do something, the data is passed into the function and you can do what you want with it. In this case I want to find out how many clicks there have been of the button and send that data to the front end. 
+
+To do this create  a variable that keeps count each time new data is received, this will be in the function called when new data is received. Create the new variable below ```const parser = port.pipe(new Readline({ delimiter: '\r\n' }));```:
+
+```
+var clicks = 0; 
+```
+Then the parser.on is updated so that every time new data is received 1 is added to the variable clicks.    
+```
+parser.on('data', function(data){ 
+
+    clicks = clicks + 1; 
+
+    console.log(clicks); 
+
+}); 
+```
+You might have noticed that we are not actually using the data itself, just the fact there is data coming in. But if we did have it send data when the button was clicked then released, we could use the data for an if statement to do something on those events. 
+
+So now we need to send the data to the front end, to do this the code in the app.get function for the root of the application is changed so that the value in the clicks variable is sent to the front end. 
+```
+app.get('/', function(req, res){ 
+
+    res.send("Number of clicks so far today: " + clicks); 
+
+}); 
+```
+Now make sure the server is started, the Arduino is connected to your computer and click the button a few times. If you refresh your web page, you will notice the number of clicks is printed on the page. If you click the button a few more times and refresh the page you will see the number of clicks has increased. 
+
+As you can see, this page is not dynamic, it does not update automatically when new data comes in.? Next week I’ll be going over web sockets using Socket.io in detail, as this will automatically update a page when new data comes in. 
+
+Have a go at changing the Arduino code so that it also sends data when the button is released. Update the Node.js application with an if statement, so that it does one thing when the button is pressed and another when released. 

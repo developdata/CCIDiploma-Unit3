@@ -128,17 +128,21 @@ Watch these videos on Electricty
 This week you will be sending data from an Arduino to a web page, via a local Node.js server on your computer. The data will be a button click, the web page will say how many times the button has been clicked then the page is opened. 
 
 ### Week 4 materials
+[Slides](https://developdata.github.io/unit3_slides/week_04/#0)
+
 [w3schools introduction to Node.js](https://www.w3schools.com/nodejs/nodejs_intro.asp)
 
 [About Node Package Manager (npm)](https://docs.npmjs.com/about-npm)
 
 ### Week 4 homework
+Go through the Arduino project book in your groups of three
+
+Update the Arduino code so that it also sends data when the button is released. Update the application code so it does something with this new data.
 
 ### Week 4 References
 [NodeBots - JavaScript robotics](https://nodebots.io/)
 
 [Drone programming with JavaScript and Node.js](https://medium.com/maestral-solutions/programming-the-ar-drone-2-0-using-javascript-and-node-js-part-1-10bb946c60e5)
-
 
 
 ## Arduino Project Book notes 

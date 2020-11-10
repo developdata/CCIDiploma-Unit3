@@ -87,7 +87,7 @@ The get function specifies a route to a web page, the forward slash is saying th
 As the code has been updated, you need to restart your server, to do this you stop the server by pressing ctrl + c, then restart it again by typing in node server.js 
 
 ### Installing Nodemon 
-It gets a bit annoying stopping and starting the server when you’re developing an application, you will be doing it a lot There is a package called Nodemon that you can download, this will automatically stop and restart the server anytime that the application is updated and saved. You want to install it for all future applications as well as this one, so this time you don’t install it specifily to this application, but in your home directory. To do this  
+It gets a bit annoying stopping and starting the server when you’re developing an application, you will be doing it a lot There is a package called Nodemon that you can download, this will automatically stop and restart the server anytime that the application is updated and saved. You want to install it for all future applications as well as this one, so this time you don’t install it specifically to this application, but in your home directory. To do this  
 
 1. Open a command line interface window 
 

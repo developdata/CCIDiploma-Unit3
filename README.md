@@ -144,6 +144,20 @@ Update the Arduino code so that it also sends data when the button is released. 
 
 [Drone programming with JavaScript and Node.js](https://medium.com/maestral-solutions/programming-the-ar-drone-2-0-using-javascript-and-node-js-part-1-10bb946c60e5)
 
+## Week 5 - Thursday 19th November 2020: Creating Web Pages with HTML and CSS
+Today’s workshop is all about creating web pages. It will concentrate on HTML and CSS which are used in the creation of web pages. The aim of this workshop is to get you familiar with HTML and CSS, understand what each does and how to write them.
+
+There are 3 videos to get you started, then I have gathered some online resources so you can explore the area you are interested in. As there are quite a few I have listed them in the [week 5 folder.](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week_5)
+
+### Week 5 materials
+[Slides](https://developdata.github.io/unit3_slides/week_05/#0)
+
+[Week 5 Folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week_5)
+
+### Week 5 homework
+The homework for this week will be to continue to go through the Arduino project book. Also go through any of the resources that interest you in the shared document.
+
+Also, see how you could add JavaScript to the web pages in the workshop, how could you change content and make the pages interactive.
 
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 

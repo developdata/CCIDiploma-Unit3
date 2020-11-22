@@ -167,6 +167,13 @@ This weeks workshop is on analog and digital input and output pins (IO) on the A
 
 [Week 5 Folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week_6)
 
+## Homework
+Continue with the Arduino project book.
+
+Continue going through the resources from week 5.
+
+If you can work with Node.js and serialport, go back through the week 4 videos and see if you can get the button data to the web page. Look at the set up for the two buttons today and send that data to the front end.
+
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 
 

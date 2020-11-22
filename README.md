@@ -159,6 +159,14 @@ The homework for this week will be to continue to go through the Arduino project
 
 Also, see how you could add JavaScript to the web pages in the workshop, how could you change content and make the pages interactive.
 
+## Week 6 - Arduino: Analog and Digital Inputs and Outputs
+This weeks workshop is on analog and digital input and output pins (IO) on the Arduino.
+
+### Week 6 materials
+[Slides](https://developdata.github.io/unit3_slides/week_06/#0)
+
+[Week 5 Folder](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week_6)
+
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 
 

@@ -48,11 +48,15 @@ In the sketch a map function is used to convert the analog range from 0 to 1023 
 
 For this you will need an LED, a 220-ohm resistor and 4 jump leads. 
 
-The image below is slightly wrong, I couldn't shorten the resitor in Tinkercad when I created this images. The jump lead and resistor should be put in separate holes in the breadboard. 
+__The image below is slightly wrong, I couldn't shorten the resitor in Tinkercad when I created this images. The jump lead and resistor should be put in separate holes in the breadboard.__ 
 
 ![LED connected to the Arduino](images/pwmSetup.jpg)
 
 ## LED and Potentiometer (PWM and Analog)
 While the last example used code to fade an LED up and down, you can also use components. This example shows an analog potentiometer (pot) used to fade the LED up and down.
+
+For this you will need an LED, a potentiometer, a 220-ohm resistor and 7 jump leads 
+
+__The image below is slightly wrong, I couldn't shorten the resitor in Tinkercad when I created this images. The jump lead and resistor should be put in separate holes in the breadboard.__
 
 ![LED and potentiometer connected to the Arduino](images/pwm2Setup.jpg)

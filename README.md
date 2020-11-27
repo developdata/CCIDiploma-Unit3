@@ -174,6 +174,18 @@ Continue going through the resources from week 5.
 
 If you can work with Node.js and serialport, go back through the week 4 videos and see if you can get the button data to the web page. Look at the set up for the two buttons today and send that data to the front end.
 
+## Week 7 - More Web pages: Putting a P5.js project on a web page
+This week's workshop builds on week 5 and looks at how to structure a web site, and how to construct a web page. I will walk through the process of thinking about what you want to make, and how to get that on a web page. Then I will walk through putting a P5.js project onto a web page. The workshop should give you a better understanding of the structure of websites and how JavaScript can be used to make them interactive. It starts 
+
+There are some optional resources, one walks through publishing a web site on GitHub pages.
+
+## Homework
+Take one of your P5.js project and put it on a web page. Use CSS to style the web page and place the p5.js canvas within it, so it looks like a designed web page.
+
+There is a shared document for this workshop, I'll will give you the link during the workshop. When you have made your page, I would like you to take a screen shot and paste it into this document. If you upload your page to GitHub pages, put in the link as well.
+
+Really push the design of the page, use CSS so the page looks complete.
+
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 
 

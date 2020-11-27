@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                color: blue;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1 id="mainText"></h1>
+        <div>
+            <input type="text" id="newText" placeholder="type your text here" />
+            <button id="submitButton">submit</button>
+        </div>
+
+        <script>
+            let inputText = document.getElementById("newText");
+            let submitButton = document.getElementById("submitButton");
+            let printText = document.getElementById("mainText");
+
+            submitButton.addEventListener('click', function(){
+                let submittedText = inputText.value;
+
+                printText.innerHTML = submittedText;
+            })
+        </script>
+    </body>
+</html>
+
+
+<!-- A text field to input 
+A button to submit the text 
+An html element to hold the submitted text 
+javascript to put the submitted text into teh html element 
+a script element to hold the javascript -->

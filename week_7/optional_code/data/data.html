@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	<script
+			  src="http://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			  crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+		<script>
+
+			$.ajax({
+			url: 'test.csv',
+			dataType: 'text',
+			}).done(successFunction);
+
+			$.ajax({
+			url: 'superheroes.json',
+			dataType: 'json',
+			}).done(successFunction);
+
+			function successFunction(data){
+				console.log(data);
+				if(typeof data == "object"){
+					checkJson(data);
+				}
+			}
+
+			function checkJson(data){
+				console.log(data.squadName)
+				console.log(data.members[0]);
+				for(let i = 0; i < data.members.length; i++){
+					console.log(data.members[i]);
+				}
+				console.log(data.members[0].name);
+			}
+
+			// const xhr = new XMLHttpRequest()
+			// xhr.onreadystatechange = () => {
+			//   if (xhr.readyState === 4) {
+			//     xhr.status === 200 ? console.log(xhr.responseText) : console.error('error')
+			//   }
+			// }
+			// xhr.open('GET', 'superheroes.json')
+			// xhr.send()
+		</script>
+
+	</body>
+</html>

@@ -12,16 +12,20 @@ Really push the design of the page, use CSS so the page looks complete.
 This looks at project structure and how to think about coding. It partly uses a p5.js project. There are some resources that might help with this section and also some reference material that I used to make this workshop.
 
 ### Resources
+#### Browser Development Tools
 It is hard to create web project without using the browsers developer tools. I mainly use Firefox or Chrome tools.
 
 [Firefox developer tools](https://developer.mozilla.org/en-US/docs/Tools#:~:text=You%20can%20open%20the%20Firefox,%2B%20Opt%20%2B%20I%20on%20macOS.)
 
 [Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools)
 
+#### Web site design
 If your interested in web site design [sidebar.io](https://sidebar.io/) has links to interesting articles on user interface (UI) and user experience (UX) design.
 
+#### p5.js
 The [p5.js getting started](https://p5js.org/get-started/) guide has a section of moving code from their online editor to your web page.
 
+#### HTML Input fields
 There are plenty of references on line on HTML input elements, these are a couple I found:
 
 [Tutorial HTML](https://tutorialehtml.com/en/html-tutorial-text-fields/)
@@ -31,6 +35,7 @@ There are plenty of references on line on HTML input elements, these are a coupl
 ## Optional Workshop Content
 There are two different optional videos to watch this week. One is on publishing a web site using GitHub pages, the other is importing data from files into an HTML page.
 
+### GitHub pages
 Github has some useful guides to pages:
 [GitHub tutorials](https://lab.github.com/githubtraining/paths)
 
@@ -38,6 +43,7 @@ Github has some useful guides to pages:
 
 [Creating more complex GitHub pages](https://lab.github.com/githubtraining/github-pages)
 
+### Importing data files into an HTML page
 If you go through the video on importing data, you will need to use a python server. I go through how to do this in the video. Their are two commands to start the server depending on if you are using python version 2 or 3.
 
 Python 2 server command ```python -m SimpleHTTPServer```

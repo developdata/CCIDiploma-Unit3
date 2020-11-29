@@ -174,12 +174,17 @@ Continue going through the resources from week 5.
 
 If you can work with Node.js and serialport, go back through the week 4 videos and see if you can get the button data to the web page. Look at the set up for the two buttons today and send that data to the front end.
 
-## Week 7 - More Web pages: Putting a P5.js project on a web page
-This week's workshop builds on week 5 and looks at how to structure a web site, and how to construct a web page. I will walk through the process of thinking about what you want to make, and how to get that on a web page. Then I will walk through putting a P5.js project onto a web page. The workshop should give you a better understanding of the structure of websites and how JavaScript can be used to make them interactive. It starts 
+## Week 7 - Structure and Code - developing web pages
+This week's workshop builds on week 5 and looks at how to structure a web site, and how to construct a web page. I will walk through the process of thinking about what you want to make, and how to get that on a web page. Then I will walk through putting a P5.js project onto a web page. The workshop should give you a better understanding of the structure of websites and how JavaScript can be used to make them interactive.
 
 There are some optional resources, one walks through publishing a web site on GitHub pages.
 
-## Homework
+## Resources
+[GitHub page for Week 7](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week_7)
+
+[Slides](https://developdata.github.io/unit3_slides/week_07/#0)
+
+### Homework
 Take one of your P5.js project and put it on a web page. Use CSS to style the web page and place the p5.js canvas within it, so it looks like a designed web page.
 
 There is a shared document for this workshop, I'll will give you the link during the workshop. When you have made your page, I would like you to take a screen shot and paste it into this document. If you upload your page to GitHub pages, put in the link as well.

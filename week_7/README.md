@@ -1,5 +1,5 @@
 # Week 7 - Structure and Code - developing web pages
-There are resources and code on this page for the week 7 workshop. There are also optional resources, the code for those is in the optional code/data folder on this page.
+There are resources and code on this page for the week 7 workshop. There are also optional resources, the code for those is in the optional_code/data folder on this page.
 
 ## Homework
 Take one of your P5.js project and put it on a web page. Use CSS to style the web page and place the p5.js canvas within it, so it looks like a designed web page.
@@ -33,7 +33,11 @@ There are plenty of references on line on HTML input elements, these are a coupl
 [Tutorial Deep](https://tutorialdeep.com/html_tutorial/text-field-html-form/)
 
 ## Optional Workshop Content
-There are two different optional videos to watch this week. One is on publishing a web site using GitHub pages, the other is importing data from files into an HTML page.
+There are four optional videos to watch this week:
+- Publishing a web site using GitHub pages
+- Making a p5.js project a background for a web page
+- Finding and fixing Errors
+- Importing data from files into an HTML page.
 
 ### GitHub pages
 Github has some useful guides to pages:
@@ -42,7 +46,7 @@ Github has some useful guides to pages:
 [Getting started with GitHub pages](https://pages.github.com/)
 [Creating more complex GitHub pages](https://lab.github.com/githubtraining/github-pages)
 
-### Making a canvas a background for a web page
+### Making a p5.js project a background for a web page
 p5.js creates content on an HTML canvas element. This can be used as a background for the page, which means you could create an interactive background that has other content on it.
 
 In the optional_code folder the file canvas.html does this. The resources I used for this are:
@@ -51,10 +55,11 @@ In the optional_code folder the file canvas.html does this. The resources I used
 
 [Making the canvas responsive](https://p5js.org/reference/#/p5/windowResized)
 
-#### Finding Errors
+### Finding and fixing Errors
 I have created a glitch that has a number of errors in it. Remix this glitch and choose edit. Show the page and use the developer tools to see the errors and fix them in the code. There is an answers.html in case you can't find any of them.
 
 [glitch with errors](https://glitch.com/~find--errors)
+
 ### Importing data files into an HTML page
 If you go through the video on importing data, you will need to use a python server. I go through how to do this in the video. Their are two commands to start the server depending on if you are using python version 2 or 3.
 

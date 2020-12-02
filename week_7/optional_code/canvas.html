@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <style>
+        canvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -9999;
+        }
+
+        h1, p{
+            background: yellow;
+            display: inline-block;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Heading text</h1>
+    <div id="p5Canvas"></div>
+    <p>This is a paragraph about the project</p>
+
+
+    <script>
+        function setup(){
+            let canvas = createCanvas(windowWidth, windowHeight);
+            canvas.parent('p5Canvas');
+        }
+
+         function draw(){
+            if (mouseIsPressed){
+                fill(0);
+            } else {
+                fill(255);
+            }
+            ellipse(mouseX, mouseY, 80, 80);
+        }
+
+        function windowResized() {
+            resizeCanvas(windowWidth, windowHeight);
+        }
+
+    </script>
+
+</body>
+
+</html>

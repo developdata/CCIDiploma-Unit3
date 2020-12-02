@@ -19,6 +19,11 @@ It is hard to create web project without using the browsers developer tools. I m
 
 [Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools)
 
+##### Finding Errors
+I have created a glitch that has a number of errors in it. Remix this glitch and choose edit. Show the page and use the developer tools to see the errors and fix them in the code. There is an answers.html in case you can't find any of them.
+
+[glitch with errors](https://glitch.com/~find--errors)
+
 #### Web site design
 If your interested in web site design [sidebar.io](https://sidebar.io/) has links to interesting articles on user interface (UI) and user experience (UX) design.
 
@@ -40,8 +45,17 @@ Github has some useful guides to pages:
 [GitHub tutorials](https://lab.github.com/githubtraining/paths)
 
 [Getting started with GitHub pages](https://pages.github.com/)
-
 [Creating more complex GitHub pages](https://lab.github.com/githubtraining/github-pages)
+
+### Making a canvas a background for a web page
+p5.js creates content on an HTML canvas element. This can be used as a background for the page, which means you could create an interactive background that has other content on it.
+
+In the optional_code folder the file canvas.html does this. The resources I used for this are:
+
+[Stackoverflow, SET HTML Canvas as a background](https://stackoverflow.com/questions/14043359/set-html-canvas-as-page-background)
+
+[Making the canvas responsive](https://p5js.org/reference/#/p5/windowResized)
+
 
 ### Importing data files into an HTML page
 If you go through the video on importing data, you will need to use a python server. I go through how to do this in the video. Their are two commands to start the server depending on if you are using python version 2 or 3.

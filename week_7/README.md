@@ -4,7 +4,7 @@ There are resources and code on this page for the week 7 workshop. There are als
 ## Homework
 Take one of your P5.js project and put it on a web page. Use CSS to style the web page and place the p5.js canvas within it, so it looks like a designed web page.
 
-There is a shared document for this workshop, I'll will give you the link during the workshop. When you have made your page, I would like you to take a screen shot and paste it into this document. If you upload your page to GitHub pages, put in the link as well.
+There is a shared document for this workshop, I'll will give you the link during the workshop and it is on Moodle. When you have made your page, I would like you to take a screen shot and paste it into this document and write one or two paragraphs about your process of making the page. This should be about the design and implementation process, including, the decisions you made when creating the page and anything you would have liked to include, but didn’t have time, or weren’t sure how to implement.  If you upload your page to GitHub pages, put in the link as well.
 
 Really push the design of the page, use CSS so the page looks complete.
 

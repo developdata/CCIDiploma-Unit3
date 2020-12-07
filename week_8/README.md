@@ -1,4 +1,4 @@
-# Week 7 - The structure of physical computing projects: breaking down the process
+# Week 8 - The structure of physical computing projects: breaking down the process
 The aim this week is to think about how physical projects are made; the different components and systems and how they link together. This will be then put into practice by planning out then building a remix of one of the Arduino projects in the Arduino project groups. This will be undertaken in small groups and can be completed as homework.
 
 ## Homework

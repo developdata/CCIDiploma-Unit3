@@ -191,6 +191,17 @@ There is a shared document for this workshop, I'll will give you the link during
 
 Really push the design of the page, use CSS so the page looks complete.
 
+# Week 8 - The structure of physical computing projects: breaking down the process
+The aim this week is to think about how physical projects are made; the different components and systems and how they link together. This will be then put into practice by planning out then building a remix of one of the Arduino projects in the Arduino project groups. This will be undertaken in small groups and can be completed as homework.
+
+## Resources
+[GitHub page for Week 8](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week_8)
+
+[Slides](https://developdata.github.io/unit3_slides/week_08/#0)
+
+## Homework
+In small groups design and build a remix of one of the projects in the Arduino project book. Base it around play and include a user interaction. In the shared document (I'll share the link during the workshop) write a few paragraphs to describe the project, how you broke it down into sections and the decisions you made in building it, include pictures of sketches and the final outcome.
+
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 
 

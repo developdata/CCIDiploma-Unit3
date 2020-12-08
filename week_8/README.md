@@ -59,3 +59,62 @@ An installation commissioned by the Copernicus Science Centre; it is a series of
 [The panGenerator website]https://pangenerator.com/projects/constellaction/ 
 
 [Information on how it was made further down the page](http://arduinoarts.com/2014/05/9-amazing-projects-where-arduino-art-meet/)
+
+## Components
+I've listed below some links for more information about the componenets I talk about in the video.
+
+### Online shops
+[AdaFruit](https://www.adafruit.com/)
+
+[The pi hut](https://thepihut.com/collections/arduino-store)  
+
+### Slide Potentiometer 
+[An example](https://thepihut.com/products/slide-potentiometer-with-plastic-knob-45mm-long) 
+
+[Wiring Linear Sliding Potentiometer with Arduino](https://www.instructables.com/Wiring-Linear-Sliding-Potentiometer-With-Arduino/)  
+
+### Joystick 
+[Tutorial](https://elekonika.com/analog-joystick-arduino-tutorial/)  
+
+This [product](https://2020.rca.ac.uk/students/finlay-duncan) was prototyped with Arduino and used a JoyStick  
+
+### Temperature and Humidity Sensor 
+[Information about the sensor](https://www.seeedstudio.com/blog/2020/04/07/how-to-pick-the-best-temperature-and-humidity-sensor-for-your-arduino-project/)
+
+[Set up](https://www.instructables.com/Arduino-Temperature-and-Humidity-Sensor/) 
+
+[Project](https://theiotprojects.com/interfacing-temperature-and-humidity-sensor-with-arduino/)
+
+[A project: Temperature and Humidity Sensor with LCD and Arduino](https://www.instructables.com/Temperature-and-Humidity-Sensor-With-LCD-and-Ardui/)
+
+### Soil Moisture sensor 
+[Project](https://create.arduino.cc/projecthub/MisterBotBreak/how-to-use-a-soil-moisture-sensor-ce769b) 
+
+### Laser Diode Module 
+[Laser diode module tutorial](https://www.instructables.com/Laser-Diode-Module-Tutorial/)
+
+[26 laser projects](https://create.arduino.cc/projecthub/projects/tags/lasers) (though one doesn't use a laser its an LED)   
+
+[Laser and laser receiver](https://www.mschoeffler.de/2017/01/20/how-to-build-an-optical-light-barrier-with-the-arduino-the-keyes-laser-module-ky-008-and-a-laser-receiver-detector-module/)
+
+LED Matrix 
+[LED Matrix] https://microcontrollerslab.com/led-matrix-types-display-working/  
+
+[Controlling a LED Matrix](https://www.instructables.com/Controlling-An-LED-Matrix/)  
+
+### NFC and RFID 
+[Read and write on NFC tags with an Arduino](https://www.allaboutcircuits.com/projects/read-and-write-on-nfc-tags-with-an-arduino/)  
+
+[RFID lamp](https://www.instructables.com/RGB-RFID-Lamp/)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

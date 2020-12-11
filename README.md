@@ -27,6 +27,11 @@ Seriously Considering Play - Designing interactive learning environments based o
 
 The Infinite Playground, A players guide to the imagination - Bernard De Koven with Holly Gramazio
 
+## Resources
+These are some useful resources that don't fit into a particular week.
+
+[Catt Small on The Full Story: Presenting Complete Ideas](https://www.youtube.com/watch?v=B3Qj_f1UrmA). Really good breakdown on how you can desing the content for slide presentations.
+
 ## Safety 
 
 In this unit you will be working with electricity and electrical components. Safety has to be considered when working with electricity. When working on Arduino projects: 

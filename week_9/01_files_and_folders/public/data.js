@@ -1,0 +1,1 @@
+console.log('inside the data.js file');

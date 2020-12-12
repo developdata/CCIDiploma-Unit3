@@ -13,12 +13,14 @@ app.use(express.static('public'));
 //NEW
 io.on('connection', (socket) => { 
 
-  // console.log(socket);
   parser.on('data', function(data){
-    console.log(data);
     socket.emit('arduino data', data);
   });
-  // socket.emit('welcome', socket.id); remove this
+
+    socket.on('update led', (shapeData)=>{
+        port.write(shapeData + 'E');
+  })
+
 
  });
 

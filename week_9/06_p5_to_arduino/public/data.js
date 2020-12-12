@@ -12,11 +12,9 @@ let eHeight = 80;
 // });
 
 socket.on('arduino data', (data)=>{
-    // console.log(data)
     text.innerHTML = "The last button pressed is button number: " + data;
 
     if(data === "2"){
-        console.log('in 2')
         if(eWidth < 120){
             eWidth += 10;
             eHeight += 10;
@@ -28,6 +26,13 @@ socket.on('arduino data', (data)=>{
             eWidth -= 10;
             eHeight -= 10;
         }
+    }
+
+    if((eWidth < 30) || (eWidth > 80)){
+        socket.emit('update led', "on");
+    } 
+    else {
+        socket.emit('update led', "off");
     }
 });
 

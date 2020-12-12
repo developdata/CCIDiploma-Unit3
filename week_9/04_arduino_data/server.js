@@ -12,13 +12,17 @@ var path = require('path');
 app.use(express.static('public'));
 //NEW
 io.on('connection', (socket) => { 
+
   // console.log(socket);
-  socket.emit('welcome', socket.id);
+  parser.on('data', function(data){
+    console.log(data);
+    socket.emit('arduino data', data);
+  });
+  // socket.emit('welcome', socket.id); remove this
+
  });
 
-parser.on('data', function(data){
-  console.log(data);
-});
+
 
 app.get('/',function(req,res){
     res.sendFile(path.join(__dirname + '/views/index.html'));

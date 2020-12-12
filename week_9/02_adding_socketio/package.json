@@ -1,5 +1,5 @@
 {
-  "name": "02_adding_serialport",
+  "name": "02_adding_socketio",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",

@@ -1,5 +1,5 @@
 {
-  "name": "02_adding_serialport",
+  "name": "03_adding_serialport",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "serialport": "^9.0.3"
+    "serialport": "^9.0.3",
+    "socket.io": "^3.0.4"
   }
 }

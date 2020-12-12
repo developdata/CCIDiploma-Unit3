@@ -12,6 +12,21 @@ Create a simple Arduino set up and send data from to a Node.js application that 
 Here are some resources relating to today's videos. There are folders for each step for creating the Node.js Arduino projects.
 This is a general video on [how the internet works](http://www.youtube.com/watch?v=eiDcMY6YfEc). It talks about the architecture of the intenet and the web protocols.
 
+## Setting up the Node.js project 
+The projects this week will need a number of Node.js modules. These are Express, serialport and socket.io. In order to make sure they can be installed the first step will be initialising a Node.js application and then installing each module.
+
+You will be using the following npm commands to set up the application.
+
+```npm init``` to create the Node.js application
+
+```npm i express``` to install express
+
+```npm i serialport``` to install serialport
+
+```npm i socket.io``` to install socket.io
+
+Remeber to set up the .gitignore file before installing express, serialport and socket.io.
+
 ## Folder and File Structures in Node.js applications
 The code for this section is in 01_files_and_folders folder on this page.
 In the video I mention favacons, this is some more information about them [favacons](https://www.seoptimer.com/blog/what-is-a-favicon/)

@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const server = require('http').createServer(app);
 const SerialPort = require('serialport');
 const Readline = require('@serialport/parser-readline');
 const port = new SerialPort('COM3');
@@ -17,6 +18,6 @@ app.get('/',function(req,res){
     res.sendFile(path.join(__dirname + '/views/index.html'));
   });
 
-const listener = app.listen(3000, ()=>{
-    console.log('app listening on ' + listener.address().port);
-});
+  server.listen(3000, ()=>{
+    console.log('app listening on ' + server.address().port);
+  });

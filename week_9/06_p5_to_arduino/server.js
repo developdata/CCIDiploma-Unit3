@@ -19,7 +19,11 @@ io.on('connection', (socket) => {
     socket.on('update led', (shapeData)=>{
         console.log(shapeData);
         port.write(shapeData + 'E');
-  });
+    });
+
+    socket.on('disconnect', ()=>{
+      console.log('left: ' + socket.id);
+    });
  });
 
   app.get('/',(req,res)=>{

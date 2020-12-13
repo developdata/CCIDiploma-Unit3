@@ -14,6 +14,10 @@ app.use(express.static('public'));
 io.on('connection', (socket) => { 
   // console.log(socket);
   socket.emit('welcome', socket.id);
+
+    socket.on('disconnect', ()=>{
+      console.log('left: ' + socket.id);
+    })
  });
 
 parser.on('data', function(data){

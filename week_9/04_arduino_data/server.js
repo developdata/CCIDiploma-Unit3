@@ -4,7 +4,7 @@ const server = require('http').createServer(app);
 const io = require('socket.io')(server); //NEW
 const SerialPort = require('serialport');
 const Readline = require('@serialport/parser-readline');
-const port = new SerialPort('COM3');
+const port = new SerialPort('COM7');
 const parser = port.pipe(new Readline({ delimiter: '\r\n' }));
 
 var path = require('path');
@@ -19,6 +19,10 @@ io.on('connection', (socket) => {
     socket.emit('arduino data', data);
   });
   // socket.emit('welcome', socket.id); remove this
+
+  socket.on('disconnect', ()=>{
+    console.log('left: ' + socket.id);
+  });
 
  });
 

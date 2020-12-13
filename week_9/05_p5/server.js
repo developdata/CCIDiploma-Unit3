@@ -20,6 +20,10 @@ io.on('connection', (socket) => {
   });
   // socket.emit('welcome', socket.id); remove this
 
+  socket.on('disconnect', ()=>{
+    console.log('left: ' + socket.id);
+  });
+
  });
 
 

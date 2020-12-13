@@ -204,8 +204,19 @@ The aim this week is to think about how physical projects are made; the differen
 
 [Slides](https://developdata.github.io/unit3_slides/week_08/#0)
 
+# Week 9 - Mixing Physical and Digital: Node.js and Arduino
+The aim of this weeks workshop is to get comfortable using a Node.js application with an Arduino. You will be passing data between them, and visualing the data.
+
+## Resources
+[GitHub page for Week 9](https://github.com/developdata/CCIDiploma-Unit3/tree/master/week_9)
+
+[Slides](https://developdata.github.io/unit3_slides/week_09/#0)
+
+
 ## Homework
-In small groups design and build a remix of one of the projects in the Arduino project book. Base it around play and include a user interaction. In the shared document (I'll share the link during the workshop) write a few paragraphs to describe the project, how you broke it down into sections and the decisions you made in building it, include pictures of sketches and the final outcome.
+Create a simple Arduino set up and send data from to a Node.js application that visualises the data or uses it for an interaction. You can do this in groups. 
+
+Once you have done this, put images of it on the shared document. Write a paragraph or two about the decisions you made and what data you connected from or to the Arduino.
 
 ## Arduino Project Book notes 
 As I’ve been going through the project book again, I’ve been noting down things that might be helpful, things that I had to do slightly differently, or didn’t give me the expected result. 

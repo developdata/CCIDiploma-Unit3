@@ -6,11 +6,12 @@ This will be done with a Node.js library called socket.io. socket.io has functio
 This workshop will use Arduino and Node.js, with the Node.js libraries Express, serialport and socket.io.
 
 ## Homework
-Create a simple Arduino set up and send data from to a Node.js application that visualises the data.
+Create a simple Arduino set up and send data from to a Node.js application that visualises the data. You can do this in groups. Once you have done this, put images of it on the shared document. Write a paragraph or two about the decisions you made and what data you connected from or to the Arduino.
 
 ## Resources
 Here are some resources relating to today's videos. There are folders for each step for creating the Node.js Arduino projects.
-This is a general video on [how the internet works](http://www.youtube.com/watch?v=eiDcMY6YfEc). It talks about the architecture of the intenet and the web protocols.
+
+I've included the code for the different stages I go through as well as the complete code from the video. 
 
 ## Introduction to webSockets and socket.io
 [How webSockets work](https://sookocheff.com/post/networking/how-do-websockets-work/)
@@ -30,9 +31,9 @@ You will be using the following npm commands to set up the application.
 
 Remeber to set up the .gitignore file before installing express, serialport and socket.io.
 
-## Files and folders Structures in Node.js applications
+## The Structure of a Node.js project 
 The code for this section is in 01_files_and_folders folder on this page.
-In the video I mention favacons, this is some more information about them [favacons](https://www.seoptimer.com/blog/what-is-a-favicon/)
+
 
 ## Adding the socket.io module
 The code for this section is on this page in the folder 02_adding_socketio 
@@ -53,5 +54,12 @@ This is the diagram for the setup:
 ![Image of an Arduino set up with two buttons](arduino_setup.jpg)
 
 ## Optional Content
-Using a template engine to update a web page (EJS)
-basic routing
+### the split() function
+The JavaScript split function can be useful to use with data from an Arduino. In the examples there was only once piece of data coming through at a time, but you may have a string of data, for example if you were getting both temperature and hummidity data in one string. The split function allows you to split a string on say a space or a comma. It puts each element of the string into an array. [MDN has good page about the split function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) as does [w3schools](https://www.w3schools.com/jsref/jsref_split.asp)
+
+### Template engines
+Template engines are another way of getting data from the server onto a web page. This video is a good introduction to what they are and how they work,
+[Introduction to Template Engines](https://www.youtube.com/watch?v=oZGmHNZv7Sc) and this [gives a comparison of some](https://npmcompare.com/compare/ejs,jade,pug).
+
+### How the internet works
+This is a general video on [how the internet works](http://www.youtube.com/watch?v=eiDcMY6YfEc). It talks about the architecture of the intenet and the web protocols.

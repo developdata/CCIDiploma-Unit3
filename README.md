@@ -214,7 +214,7 @@ The aim of this weeks workshop is to get comfortable using a Node.js application
 
 
 ## Homework
-Create a simple Arduino set up and send data from to a Node.js application that visualises the data or uses it for an interaction. You can do this in groups. 
+Create a simple Arduino set up and send data from it to a Node.js application that visualizes the data or uses it for an interaction. You can do this in groups. 
 
 Once you have done this, put images of it on the shared document. Write a paragraph or two about the decisions you made and what data you connected from or to the Arduino.
 

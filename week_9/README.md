@@ -1,12 +1,12 @@
 # Week 9 - Mixing Physical and Digital: Node.js and Arduino
-The aim of this weeks workshop is to get comfortable using a Node.js application with an Arduino. You will be passing data between them, and visualing the data.
+The aim of this weeks workshop is to get comfortable using a Node.js application with an Arduino. You will be passing data between them, and visualizing the data. 
 
-This will be done with a Node.js library called socket.io. socket.io has functions to let you pass data from the server to a web page, or a web page to a server as soon as that data arrives. 
+This will be done with a Node.js library called serialport and then using another library called socket.io. socket.io has functions to let you pass data from the server to a web page, or a web page to a server as soon as that data arrives. 
 
 This workshop will use Arduino and Node.js, with the Node.js libraries Express, serialport and socket.io.
 
 ## Homework
-Create a simple Arduino set up and send data from to a Node.js application that visualises the data or uses it for an interaction. You can do this in groups. 
+Create a simple Arduino set up and send data from it to a Node.js application that visualizes the data or uses it for an interaction. You can do this in groups. 
 
 Once you have done this, put images of it on the shared document. Write a paragraph or two about the decisions you made and what data you connected from or to the Arduino.
 
@@ -80,3 +80,8 @@ Template engines are another way of getting data from the server onto a web page
 
 ### How the internet works
 This is a general video on [how the internet works](http://www.youtube.com/watch?v=eiDcMY6YfEc). It talks about the architecture of the intenet and the web protocols.
+
+### Desiging a slide presentation
+I really like this video, it's about including stories in presentations, but it is also really useful for the overall design. How to get the information in the right order and get across what you want to. 
+
+[Catt Small on The Full Story: Presenting Complete Ideas](https://www.youtube.com/watch?v=B3Qj_f1UrmA). Really good breakdown on how you can desing the content for slide presentations.
